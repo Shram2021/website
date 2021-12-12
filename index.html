@@ -4,12 +4,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, maximum-scale=5.0, minimum-scale=1.0, initial-scale=1.0">
-  <meta name="description"
-    content="Shram is the subconscious thought of focus, self-growth and teamwork. We are building a tool to evolve the modern workspace.">
-
+  <meta name="description" content="Shram is the subconscious thought of focus, self-growth and teamwork. We are building a tool to evolve the modern workspace.">
   <meta property="og:title" content="Evolve your Workspace | Shram">
-  <meta property="og:description"
-    content="Shram is the subconscious thought of focus, self-growth and teamwork. We are building a tool to evolve the modern workspace.">
+  <meta property="og:description" content="Shram is the subconscious thought of focus, self-growth and teamwork. We are building a tool to evolve the modern workspace.">
   <meta property="og:url" content="https://shram.io">
   <meta property="og:image" content="https://shram.io/logo.png">
 
@@ -21,10 +18,21 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="#000">
 
   <link rel="icon" type="image/png" href="logo.png">
+  <link rel="stylesheet" href="index.css">
   <link rel="stylesheet" href="helvetica_neue/stylesheet.css" type="text/css" charset="utf-8">
 
   <title>Evolve your Workspace | Shram</title>
   <script src="index.js" defer></script>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-B7Q9XGJ6MP"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-B7Q9XGJ6MP');
+  </script>
 </head>
 
 <body>
@@ -112,14 +120,16 @@
       self-growth and teamwork.</h4>
 
     <h4 class="t14">Coming soon with a tool to <span class="highlight_text">Evolve your Workplace!</span></h4>
-
-    <div class="t15">
-      <form action="" method="post">
-        <div class="signup_wrap">
+    
+    <div id="mc_embed_signup" class="t15">
+      <form action="https://shram.us20.list-manage.com/subscribe/post?u=fbf4fc0db6b7c935366ee7dce&amp;id=ce36dd58ff" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="">
+        <div class="mc_embed_signup_wrap">
           <h4>To stay tuned, join our newsletter:</h4>
-          <div class="signup_wrap_inner">
-            <input type="email" value="" name="" class="email" placeholder="Email id*" required>
-            <input type="submit" value="Sign up!" name="" class="button">
+          <div class="mc_embed_signup_wrap_inner">
+            <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Email id*" required="">
+            <input type="submit" value="Sign up!" name="subscribe" id="mc-embedded-subscribe" class="button">
+            <!-- Don't touch the code below -->
+            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_fbf4fc0db6b7c935366ee7dce_ce36dd58ff" tabindex="-1" value=""></div>
           </div>
         </div>
       </form>
@@ -128,9 +138,9 @@
     <div class="t16">
       <h4>Follow us:</h4>
       <div class="list">
-        <a href="">Twitter</a>
-        <a href="">Instagram</a>
-        <a href="">LinkedIn</a>
+        <a href="https://twitter.com/shramio" target="_blank">Twitter</a>
+        <a href="https://instagram.com/shram.io/" target="_blank">Instagram</a>
+        <a href="https://in.linkedin.com/company/shram-io" target="_blank">LinkedIn</a>
       </div>
     </div>
 
@@ -147,9 +157,7 @@
 </body>
 <script>
   document.addEventListener('DOMContentLoaded', () => {
-
     var head = document.getElementsByTagName('HEAD')[0];
-
     var link = document.createElement('link');
 
     link.rel = 'stylesheet';
@@ -157,7 +165,6 @@
     link.href = 'index.css';
 
     head.appendChild(link);
-
   })
 
 </script>

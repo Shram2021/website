@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+/* Hide scrollbar but allow scrolling */
+* {
+  -ms-overflow-style: none; /* for Internet Explorer, Edge */
+  scrollbar-width: none; /* for Firefox */
+  overflow-y: scroll;
+}
+
+*::-webkit-scrollbar {
+  display: none; /* for Chrome, Safari, and Opera */
+}
+
+@font-face{ 
+	font-family: 'Helvetica';
+	src: url('https://udichi.in/shram/helvetica_neue/helvetica_neue_lt_75_bold-webfont.woff');
+	src: url('https://udichi.in/shram/helvetica_neue/helvetica_neue_lt_75_bold-webfont.woff') format('woff')
+}
+
+/* h3, h4, h5, h6, a, form input {
+  letter-spacing: 1px;
+  line-height: 1.2;
+} */
+
+h3 {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 48px;
+}
+
+h4 {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 24px;
+}
+
+h5 {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 18px;
+}
+
+a {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+form input {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+/*Body*/
+body {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+}
+
+/*Container*/
+#container {
+  width: 100%;
+  max-width: 480px;
+  margin: 0 auto;
+  background: rgb(252, 245, 239);
+}
+
+h3 {
+  color: #ffa62b;
+}
+
+h4, h5 {
+  color: #877b75;
+}
+
+.text h3 {
+  margin: 160px 20px 0 20px;
+}
+
+#container .text h4 {
+  margin: 40px 20px 0 20px;
+}
+
+.link {
+  display: flex;
+}
+
+.link a {
+  font-size: 20px;
+  margin: 40px auto 0;
+  padding: 11px;
+  text-decoration: none;
+  border: 1.5px solid #ffe0b3;
+  border-radius: 6px;
+  color: #eb7d00;
+  background: #ffe0b3;
+  transition: 0.2s;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  cursor: pointer;
+}
+
+.link a:hover {
+  border: 1.5px solid #ffa62b;
+  color: #fff3e0;
+  background: #ffa62b;
+}
+
+.links1 h4 {
+  margin: 80px 20px 0 20px;
+}
+
+.links2 {
+  margin-bottom: 80px;
+}
+
+.links2 h5 {
+  margin: 80px 20px 0 20px;
+}
+
+.list {
+  margin: 0 20px;
+  display: flex;
+  flex-direction: column;
+  z-index: 10;
+}
+
+.list a {
+  margin-top: 16px;
+  color: #eb7d00;
+}
+
+@media only screen and (max-width: 1024px) and (orientation: portrait) {
+  
+}
+
+@media only screen and (max-width: 768px) {
+}
+
+@media only screen and (max-width: 600px) {
+  
+}
+
+@media only screen and (max-height: 600px) and (orientation: landscape) {
+
+}
+
+@media only screen and (max-width: 600px) and (max-height: 600px) and (orientation: landscape) {
+  
+}
