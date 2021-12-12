@@ -421,6 +421,7 @@ function setAnimation() {
 async function asyncCode() {
     try {
         await setStyles();
+        await setI1();
         await setBackground();
         await setAnimation();
         await setBoxes();
