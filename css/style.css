@@ -333,7 +333,7 @@ a {
 .outerbox1 .innerbox1 {
     width: 1024px;
     margin: 0 auto;
-    background-image: url("media/shram_1.png");
+    background-image: url(../media/shram_1.png);
     background-size: cover;
 }
 
