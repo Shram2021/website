@@ -566,14 +566,6 @@ a {
     box-shadow: none;
 }
 
-.outerbox3 .innerbox2 .box .image img, .ui img {
-    display: none;
-}
-
-.outerbox3 .innerbox2 .box .image img.show, .ui img.show {
-    display: block;
-}
-
 /* Innerbox 3 */
 .outerbox3 .innerbox3 {
     display: flex;

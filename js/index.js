@@ -108,28 +108,6 @@ function removeBr() {
 
 removeBr();
 
-//---Image change animation---//
-// var images1 = document.querySelectorAll('.outerbox3 .innerbox2 .box .image img');
-// imageN = 0;
-
-// function imageChange() {
-//   setInterval(function() {
-//     imageN++;
-//     if (imageN > images1.length - 1) {
-//       imageN = 0;
-//     }
-
-//     images1.forEach(i => {
-//       i.classList.remove('show');
-//     });
-
-//     images1[imageN].classList.add('show');
-
-//   }, 3000)
-// }
-
-// imageChange();
-
 //---Text change animation---//
 var txt = document.querySelector('span.txt');
 txtArray = ["simple.", "clean.", "intuitive.", "inspiring."];
