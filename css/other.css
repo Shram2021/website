@@ -492,48 +492,19 @@ a {
         width: 100%;
     }
 
+
+
+
+
+    /* Outerbox 2 */
+    /* Innerbox 1 */
+    .outerbox2 .innerbox1 {
+        width: 100%;
+    }
+
     /* Innerbox 2 */
     .outerbox2 .innerbox2 {
         width: 100%;
-    }
-    
-    .outerbox1 .innerbox2 .text {
-        margin-left: 0;
-    }
-
-    .outerbox1 .innerbox2 .button {
-        margin-right: 0;
-    }
-
-    /* Innerbox 2 */    
-    .outerbox2 .innerbox2:last-child {
-        padding-bottom: 100px;
-    }
-    
-    .outerbox2 .innerbox2 .title {
-        margin: 0 24px;
-        padding-top: 50px;
-    }
-    
-    .outerbox2 .innerbox2 .text {
-        margin: 0 24px;
-        padding-top: 18px;
-    }
-    
-    .outerbox2 .innerbox2 .text p {
-        margin-top: 12px;
-    }
-    
-    .outerbox2 .innerbox2 .text p:first-child {
-        margin-top: 0;
-    }
-    
-    .outerbox2 .innerbox2 .text ol, .outerbox2 .innerbox2 .text ul {
-        padding-left: 32px;
-    }
-    
-    .outerbox2 .innerbox2 .text li {
-        margin-top: 6px;
     }
 
 }
@@ -547,21 +518,6 @@ a {
     /*Popup form*/
     .form {
         padding: 0;
-    }
-
-
-
-
-
-    /* Outerbox 2 */
-    /* Innerbox 2 */
-    .outerbox2 .innerbox2 .boxes .box {
-        width: 220px;
-    }
-
-    .outerbox2 .innerbox2 .boxes .box .image img {
-        width: 220px;
-        height: 220px;
     }
 
 }

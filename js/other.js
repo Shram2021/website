@@ -109,15 +109,3 @@ function removeBr() {
 }
 
 removeBr();
-
-//---Message section height---//
-var container = document.querySelector('#container .outerbox1 .innerbox1');
-
-function messageSection() {
-  // if (screen.width > 600 && screen.height > 600) {
-    container.style.height = window.innerHeight - topbar.clientHeight + 'px';
-    container.style.marginTop = topbar.clientHeight + 'px';
-  // }
-}
-
-messageSection();
