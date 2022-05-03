@@ -25,8 +25,7 @@ var body = document.querySelector('body');
 var overlay = document.querySelector('.overlay');
 var popupForm = document.querySelector('.popup_form');
 var popupFormInputs = document.querySelectorAll('.popup_form .form input');
-var popupFormTextArea = document.querySelector('.popup_form .form textarea');
-var popupFormButton = document.querySelector('.popup_form .form button');
+var popupFormButton = document.querySelector('.popup_form .form .button');
 
 function popupFormPosition() {
   //---Pop-up form small device landscape mode---//
@@ -34,7 +33,6 @@ function popupFormPosition() {
     popupFormInputs.forEach(input => {
       input.style.lineHeight = (window.innerHeight - 48 - 112) / 6 + 'px';
     })
-    popupFormTextArea.style.height = (window.innerHeight - 48 - 112) / 3 + 'px';
     popupFormButton.style.lineHeight = (window.innerHeight - 48 - 112) / 6 + 'px';
   }
 
