@@ -1087,13 +1087,10 @@ img {
         margin-bottom: 0;
     }
 
-    .outerbox2 .innerbox2 .boxes .box .image {
-        text-align: center;
-    }
-
     .outerbox2 .innerbox2 .boxes .box .image img {
         width: 250px;
         height: 250px;
+        margin: 0 auto;
     }
 
     /* Innerbox 3 */    
