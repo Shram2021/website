@@ -51,7 +51,7 @@ h4 {
 
 h5 span {
     font-weight: 600;
-    text-decoration: underline;
+    /* text-decoration: underline; */
 }
 
 h5 {
