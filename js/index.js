@@ -110,7 +110,7 @@ removeBr();
 
 //---Text change animation---//
 var txt = document.querySelector('span.txt');
-txtArray = ["simple.", "clean.", "intuitive.", "inspiring."];
+txtArray = ["simple.", "clean.", "intuitive."];
 txtN = 0;
 
 function textChange() {
